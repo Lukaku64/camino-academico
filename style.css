@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  background-color: #e9eae4;
 }
 
 header {
@@ -62,7 +63,6 @@ header {
   width: 100%;
   height: 60vh;
   overflow: hidden;
-  
 }
 
 .sobrenosotros img {
@@ -97,18 +97,17 @@ header {
 }
 
 .Carreras {
-  background-color: #E9EAE4;
+  background-color: #e9eae4;
   margin: 0;
   padding: 10px 0;
 }
-.Carreras h2{
+.Carreras h2 {
   text-align: center;
-  
 }
 
 .filtrosSection {
   width: 90%;
-  background-color: #7EA2C7;
+  background-color: #7ea2c7;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -128,16 +127,16 @@ header {
   font-size: 1.2em;
   font-weight: 700;
   cursor: pointer;
-  color: #E9EAE4;
+  color: #e9eae4;
   margin: 0;
   padding: 10px;
-  background-color: #125A99;
+  background-color: #125a99;
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
 
 .categoria p:hover {
-  background-color: #E89005;
+  background-color: #e89005;
   color: #fff;
 }
 
@@ -153,18 +152,18 @@ header {
 .submenu li {
   margin: 0;
   padding: 5px 10px;
-  background-color: #E9EAE4;
+  background-color: #e9eae4;
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
 
 .submenu li a {
   text-decoration: none;
-  color: #125A99;
+  color: #125a99;
 }
 
 .submenu li:hover {
-  background-color: #E89005;
+  background-color: #e89005;
 }
 
 .submenu li a:hover {
@@ -172,9 +171,8 @@ header {
 }
 
 .categoria:hover .submenu {
-  display: block; 
+  display: block;
 }
-
 
 .carreraGrid {
   display: grid;
@@ -191,7 +189,6 @@ header {
 }
 
 .itemGrid {
-  
   background-color: #e0e0e0;
   text-align: center;
   padding: 10px;
@@ -217,10 +214,61 @@ header {
   font-weight: lighter;
 }
 
+/* formulario */
+.contact-form {
+  background-color: #f9f9f9; /* Fondo del formulario */
+  padding: 20px;
+  max-width: 600px; /* Ancho máximo del formulario */
+  margin: 40px auto; /* Centrar horizontalmente con 'auto' y separar del footer */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.contact-form h3 {
+  margin-bottom: 20px;
+  color: #333; /* Color del título del formulario */
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%; /* Ocupar todo el ancho disponible */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Asegurarse que el padding no altere el tamaño */
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form button {
+  background-color: #4caf50; /* Color del botón */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #45a049; /* Color al pasar el ratón por el botón */
+}
 
 /* Estilos para la sección de carreras */
 #nuestras-carreras {
-  background-color: #E9EAE4;
+  background-color: #e9eae4;
   padding: 50px 0;
 }
 
@@ -231,7 +279,7 @@ header {
 }
 
 #nuestras-carreras h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5em;
   color: #333;
   margin-bottom: 20px;
@@ -260,7 +308,7 @@ header {
 }
 
 .carrera h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
   color: #007bff;
   margin-bottom: 10px;
@@ -331,13 +379,14 @@ footer {
 }
 
 .footer-section h4 {
-  font-family: 'Montserrat', sans-serif;
-  color: #E89005;
+  font-family: "Montserrat", sans-serif;
+  color: #e89005;
   margin-bottom: 10px;
 }
 
-.footer-section p, .footer-section ul {
-  font-family: 'Montserrat', sans-serif;
+.footer-section p,
+.footer-section ul {
+  font-family: "Montserrat", sans-serif;
   font-size: 1em;
   margin-bottom: 10px;
 }
@@ -357,7 +406,7 @@ footer {
 }
 
 .footer-section ul li a:hover {
-  color: #E89005;
+  color: #e89005;
 }
 
 .footer-section img {
@@ -380,14 +429,14 @@ footer {
 
 .footer-bottom p {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1em;
 }
 
 .back-to-top {
   display: inline-block;
   margin-top: 10px;
-  color: #E89005;
+  color: #e89005;
   text-decoration: none;
   font-weight: bold;
 }
@@ -399,7 +448,7 @@ footer {
 /* Sección de Sedes Universitarias */
 #sedes {
   padding: 40px;
-  background-color: #7EA2C7;
+  background-color: #7ea2c7;
   text-align: center;
 }
 
@@ -414,7 +463,7 @@ footer {
 
 .sede h3 {
   font-size: 1.8em;
-  color:#125a99;
+  color: #125a99;
 }
 
 .sede img {
@@ -430,4 +479,3 @@ footer {
   font-size: 1.1em;
   line-height: 1.6;
 }
-
